@@ -43,7 +43,7 @@ void push(){
 
 void pop(){
     if(isEmpty()){
-        printf("stack s full");
+        printf("stack s empty");
 
     } else{
         printf("%d is poped out :",stack[top]);
